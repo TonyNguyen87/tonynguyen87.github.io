@@ -980,7 +980,7 @@
 }
 
 .teal {
-  background-color: #009688 !important;
+  background-color: #0B0C0C !important;
 }
 
 .teal-text {
@@ -1016,11 +1016,11 @@
 }
 
 .teal-text.text-lighten-2 {
-  color: #4db6ac !important;
+  color: #795548 !important;
 }
 
 .teal.lighten-1 {
-  background-color: #26a69a !important;
+  background-color: #FB6307 !important;
 }
 
 .teal-text.text-lighten-1 {
@@ -1904,6 +1904,7 @@
 }
 
 .brown-text.text-lighten-3 {
+  font-family: "Orbitron", sans-serif;
   color: #bcaaa4 !important;
 }
 
@@ -2152,6 +2153,7 @@
 }
 
 .white-text {
+  font-family: "Orbitron", sans-serif;
   color: #FFFFFF !important;
 }
 
@@ -2366,6 +2368,7 @@ dfn {
  * contexts in Firefox 4+, Safari, and Chrome.
  */
 h1 {
+  font-family: "Orbitron", sans-serif;
   font-size: 2em;
   margin: 0.67em 0;
 }
@@ -4130,6 +4133,7 @@ nav .button-collapse i {
 }
 
 nav .brand-logo {
+  font-family: "Orbitron", sans-serif;
   position: absolute;
   color: #fff;
   display: inline-block;
@@ -4184,6 +4188,7 @@ nav ul li.active {
 }
 
 nav ul a {
+  font-family: "Orbitron", sans-serif;
   transition: background-color .3s;
   font-size: 1rem;
   color: #fff;
