@@ -4850,6 +4850,7 @@ small {
 
 .btn, .btn-large,
 .btn-flat {
+  background-color: transparent;
   border: none;
   border-radius: 2px;
   display: inline-block;
@@ -4904,7 +4905,7 @@ small {
 .btn, .btn-large {
   text-decoration: none;
   color: #fff;
-  background-color: #26a69a;
+  /*background-color: #26a69a;*/
   text-align: center;
   letter-spacing: .5px;
   transition: .2s ease-out;
@@ -4912,7 +4913,7 @@ small {
 }
 
 .btn:hover, .btn-large:hover {
-  background-color: #2bbbad;
+  background-color: #FB6307;
 }
 
 .btn-floating {
@@ -5331,6 +5332,7 @@ a.waves-effect .waves-ripple {
 }
 
 .collapsible-body {
+  font-family: 'Orbitron', sans-serif; 
   display: none;
   /*border-bottom: 1px solid #ddd;*/
   box-sizing: border-box;
@@ -7413,7 +7415,7 @@ input[type=range]:focus::-ms-fill-upper {
   width: 100%;
   height: 400px;
   -webkit-perspective: 500px;
-          perspective: 500px;
+          perspective: 700px;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   -webkit-transform-origin: 0% 50%;
@@ -7421,6 +7423,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .carousel .carousel-item {
+  font-family: "Orbitron", sans-serif;
   width: 200px;
   position: absolute;
   top: 0;

@@ -1,0 +1,5 @@
+          <div class="carousel">
+            <a class="carousel-item" href="#one!">Lifteri<img src="Lifteri.png">Hitch-hiking app</a>
+            <a class="carousel-item" href="#two!">Hint Pic<img src="Hint Pic.png">Picture Guessing Game</a>
+            <a class="carousel-item" href="#three!">Vote ATL<img src="atl.png">Real time voting app</a>
+          </div>
