@@ -2656,7 +2656,7 @@ ul.browser-default {
 }
 
 a {
-  color: #039be5;
+  color: white;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
@@ -4635,14 +4635,14 @@ small {
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
-  color: #ffab40;
+  /*color: #ffab40;*/
   margin-right: 20px;
   transition: color .3s ease;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating):hover {
-  color: #ffd8a6;
+  /*color: #ffd8a6;*/
 }
 
 .card .card-action + .card-reveal {
@@ -5043,7 +5043,7 @@ button.btn-floating {
   background-color: #fff;
   margin: 0;
   display: none;
-  min-width: 100px;
+  min-width: 230px;
   max-height: 650px;
   overflow-y: auto;
   opacity: 0;
@@ -5078,7 +5078,7 @@ button.btn-floating {
 
 .dropdown-content li > a, .dropdown-content li > span {
   font-size: 16px;
-  color: #26a69a;
+  /*color: #26a69a;*/
   display: block;
   line-height: 22px;
   padding: 14px 16px;
@@ -5303,20 +5303,21 @@ a.waves-effect .waves-ripple {
 }
 
 .collapsible {
-  border-top: 1px solid #ddd;
+/*  border-top: 1px solid #ddd;
   border-right: 1px solid #ddd;
   border-left: 1px solid #ddd;
-  margin: 0.5rem 0 1rem 0;
+  margin: 0.5rem 0 1rem 0;*/
 }
 
 .collapsible-header {
-  display: block;
+  font-family: 'Orbitron', sans-serif;
+/*  display: block;
   cursor: pointer;
-  min-height: 3rem;
+  min-height: 3rem;*/
   line-height: 3rem;
-  padding: 0 1rem;
+/*  padding: 0 1rem;
   background-color: #fff;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;*/
 }
 
 .collapsible-header i {
@@ -5331,7 +5332,7 @@ a.waves-effect .waves-ripple {
 
 .collapsible-body {
   display: none;
-  border-bottom: 1px solid #ddd;
+  /*border-bottom: 1px solid #ddd;*/
   box-sizing: border-box;
 }
 
@@ -8186,3 +8187,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
     margin-bottom: 5em;
   }
 }
+
+.dropdown-button.btn {
+  background-color: white;
+  text-transform: lowercase;
+  color: black;
+}
+

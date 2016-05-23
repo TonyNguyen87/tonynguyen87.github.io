@@ -55,3 +55,8 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+.social-buttons {
+  display: inline-block;
+  padding-right: 10px;
+}
