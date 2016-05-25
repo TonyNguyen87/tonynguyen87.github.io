@@ -283,6 +283,11 @@ a:hover { text-decoration: underline; }
   -webkit-animation: javascript 1.5s ease-in-out forwards;
   animation: javascript 1.5s ease-in-out forwards;
 }
+#skillset .skill .bar .jq {
+  -moz-animation: jq 1.5s ease-in-out forwards;
+  -webkit-animation: jq 1.5s ease-in-out forwards;
+  animation: jq 1.5s ease-in-out forwards;
+}
 
 
 /** CSS3 keyframes **/
@@ -330,29 +335,29 @@ a:hover { text-decoration: underline; }
 
 @-moz-keyframes wordpress {
   0%   { width: 35px; } 
-  100% { width: 25%; }
+  100% { width: 60%; }
 }
 @-webkit-keyframes wordpress {
   0%   { width: 35px; } 
-  100% { width: 25%; }
+  100% { width: 60%; }
 }
 @keyframes wordpress {
   0%   { width: 35px; } 
-  100% { width: 25%; }
+  100% { width: 60%; }
 }
 
 
 @-moz-keyframes woocommerce {
   0%   { width: 35px; } 
-  100% { width: 25%; }
+  100% { width: 60%; }
 }
 @-webkit-keyframes woocommerce {
   0%   { width: 35px; } 
-  100% { width: 25%; }
+  100% { width: 60%; }
 }
 @keyframes woocommerce {
   0%   { width: 35px; } 
-  100% { width: 25%; }
+  100% { width: 60%; }
 }
 
 @-moz-keyframes javascript {
@@ -367,6 +372,21 @@ a:hover { text-decoration: underline; }
   0%   { width: 20px; } 
   100% { width: 7%; }
 }
+
+
+@-moz-keyframes jq {
+  0%   { width: 20px; } 
+  100% { width: 7%; }
+}
+@-webkit-keyframes jq {
+  0%   { width: 20px; } 
+  100% { width: 7%; }
+}
+@keyframes jq {
+  0%   { width: 20px; } 
+  100% { width: 7%; }
+}
+
 
 /** multicolored skill bars **/
 #skillset .skill .bar .skillbar.htmlcss.alt {
