@@ -28,9 +28,9 @@ body {
   /*line-height: 1; */
 }
 
-::selection { background: #a4ecab; }
-::-moz-selection { background: #a4ecab; }
-::-webkit-selection { background: #a4ecab; }
+/*::selection { background: #a4ecab; }*/
+/*::-moz-selection { background: #a4ecab; }
+::-webkit-selection { background: #a4ecab; }*/
 
 ::-webkit-input-placeholder { /* WebKit browsers */
   color: #ccc;
