@@ -6,6 +6,10 @@
  * Made By MaterializeCSS.com
  */
 
+.page h1.format-icon:before {
+content: none;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;

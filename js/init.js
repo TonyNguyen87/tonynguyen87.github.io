@@ -92,3 +92,15 @@
 	}
 }
 $(function(){ o.init(); });
+
+
+
+  var options = [
+    {selector: '.about', offset: 200, callback: function() {
+      customCallbackFunc();
+    } },
+    {selector: '.skills', offset: 200, callback: function() {
+      customCallbackFunc();
+    } },
+  ];
+  Materialize.scrollFire(options);
